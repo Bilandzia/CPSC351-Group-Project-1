@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1677115160 source:/home/yo/Desktop/test/test/main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<string>
+	<pthread.h>
+
