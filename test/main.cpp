@@ -69,35 +69,35 @@ int main()
             {
             string pt = please;
             string pth = please;
-            pt.append("ps  ",4);
+            pt.append("ps  ",8);
             please = pt+pth;
             }
             else if(please.find("notepad")!= std::string::npos)/*change params of these from notepad to ping*/
             {
             string pt = please;
             string pth = please;
-            pt.append("df -l",5);//
+            pt.append("vim ",8);//
             please = pt;
             }
             else if(please.find("echo")!= std::string::npos)
             {
             string pt = please;
             string pth = please;
-            pt.append("df -l",5);//
+            pt.append("echo ",5);//
             please = pt;
             }
             else if(please.find("color")!= std::string::npos)
             {
             string pt = please;
             string pth = please;
-            pt.append("df -l",5);//
+            pt.append("color ",6);//
             please = pt;
             }
             else if(please.find("ping")!= std::string::npos)
             {
             string pt = please;
             string pth = please;
-            pt.append("df -l",5);//
+            pt.append("ping ",5);//
             please = pt;
             }
         pthread_create(&cmd,NULL,ahhh,&please);// creates thread
