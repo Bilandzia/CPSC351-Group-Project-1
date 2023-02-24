@@ -1,3 +1,14 @@
+/*
+Group Project 1
+Brandon Bilandzia
+Christian Brantner
+Josue Cota
+Mason Emes
+Liti Foloifo
+*/
+
+
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
